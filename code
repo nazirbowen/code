@@ -1,0 +1,20 @@
+import random
+
+class Time:
+    def __init__(self, hour, minute, second):
+        self.hour = hour
+        self.minute = minute 
+        self.second = second
+
+    Time_1 = Time(5, 32, 00)
+    Time_2= Time(23, 11, 11)
+    print(Time_1)
+    print(Time_2)
+
+    
+    def yourCurrentTime():
+    
+    
+    
+    hour = int(input('enter your local hour:'))
+    
